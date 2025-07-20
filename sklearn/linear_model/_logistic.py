@@ -990,7 +990,7 @@ class LogisticRegression(LinearClassifierMixin, SparseCoefMixin, BaseEstimator):
         .. versionchanged:: 0.22
             Default changed from 'ovr' to 'auto' in 0.22.
         .. deprecated:: 1.5
-           ``multi_class`` was deprecated in version 1.5 and will be removed in 1.7.
+           ``multi_class`` was deprecated in version 1.5 and will be removed in 1.8.
            From then on, the recommended 'multinomial' will always be used for
            `n_classes >= 3`.
            Solvers that do not support 'multinomial' will raise an error.
@@ -1678,7 +1678,7 @@ class LogisticRegressionCV(LogisticRegression, LinearClassifierMixin, BaseEstima
         .. versionchanged:: 0.22
             Default changed from 'ovr' to 'auto' in 0.22.
         .. deprecated:: 1.5
-           ``multi_class`` was deprecated in version 1.5 and will be removed in 1.7.
+           ``multi_class`` was deprecated in version 1.5 and will be removed in 1.8.
            From then on, the recommended 'multinomial' will always be used for
            `n_classes >= 3`.
            Solvers that do not support 'multinomial' will raise an error.
